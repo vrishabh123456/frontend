@@ -1,0 +1,53 @@
+/* color */
+
+.color {
+     color: rgb(155, 226, 266);  /* using rgb value */
+    color: red;                /* using red name */
+    color: #000000;            /* using hexadecimal color */
+}
+
+/* background  color*/
+
+.bgcolor {
+    background-color: blue;
+}
+
+/* border */
+
+.bgcolor{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+/* border */
+
+.bgcolor{
+    color: azure;
+    border-width: 10px;
+    border-style: double;
+    border-color: red;
+}
+
+/* multiple border apply */
+
+.multi_border {
+    border-top: 2px solid red;
+    border-right: 5px dashed blue;
+    border-bottom: 7px dotted green;
+    border-left: 10px solid purple;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+/* multiple radius apply */
+
+.radius {
+    color:aliceblue;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(82, 39, 176);
+    border-radius:20px;
+}
