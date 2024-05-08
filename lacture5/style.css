@@ -1,0 +1,29 @@
+.box_1{
+  width: 100px;
+  height: 100px;
+  color: rgb(46, 86, 165);
+  background-color: rgb(14, 17, 18);
+  margin: 100px;
+  padding: 10px;
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center text vertically */
+}
+.box_2 {
+  width: 100px;
+  height: 100px;
+  color: orangered;
+  background-color: rgb(14, 16, 16);
+  margin: 100px;
+  padding: 10px;
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center text vertically */
+}
+
+.container {
+  display: flex;
+}
+
