@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box-sizing{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: rgb(42, 146, 84);
+    padding: 10px;              
+}
+
+.box-sizing1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(49, 100, 118);
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.white-space{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: rgb(168, 44, 56);
+    white-space: normal;
+    white-space: nowrap;
+    white-space: pre;
+    white-space: pre-wrap;
+}
