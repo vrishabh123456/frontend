@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    display: flex;
+    border: 1px dotted black;
+    margin: 9px;
+}
+.box-1{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(220, 25, 25);
+      margin: 15px;
+      padding: 5px;
+      position:static;
+}
+.box-2{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(43, 165, 51);
+      margin: 15px;
+      padding: 5px;
+      position: static;
+}      
+.box-3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    position:static;
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    position: static;
+}   
+
+.box2{
+    display: flex;
+    border: 1px dotted black;
+    margin: 9px;
+
+}
+.box-5{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(211, 11, 11);
+      margin: 15px;
+      padding: 5px;
+      position: relative;
+}
+.box-6{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(43, 165, 51);
+      margin: 15px;
+      z-index: 1;
+      left: 10px;
+      top: 30px;
+      padding: 5px;
+      position: relative;
+}      
+.box-7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+}
+.box-8{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+}   
+.box3{
+    display: flex;
+    border: 1px dotted black;
+    margin: 15px;
+
+}
+.box-9{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(211, 11, 11);
+      margin: 15px;
+      padding: 5px;
+}
+.box-10{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(43, 165, 51);
+      margin: 15px;
+      position: relative;
+      padding: 5px;
+      z-index: 1;
+      right: 100px;
+      top: 20px;
+}      
+.box-11{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    right: 80px;
+    position: relative;
+}
+.box-12{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 11, 11);
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+    right: 90px;
+}   

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boll{
+    width: 80%px;
+    height: 30px;
+    background-color: rgb(243, 151, 5);
+    display: flex;
+    margin-top: 2px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.boll-1{
+    display: flex;
+    gap: 20px;
+}
+
+.lorem{
+    display: flex;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left:25px ;
+    margin-right: 120px;
+    justify-content: space-around;
+}
+
+.lorem-1{
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 220px;
+    margin-right: 220px;
+}

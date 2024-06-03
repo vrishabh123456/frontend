@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clip1{
+    width: 60%;
+    height: 500px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50% auto;
+    padding: 100px;
+    /* background-clip: border-box;
+    background-clip: content-box; */
+    background-clip: padding-box;
+}
+
+
+.clip2{
+    width: 60%;
+    height: 500px;
+    background-color: rgb(40, 47, 135);
+    border: 3px solid black;
+    margin: 50% auto;
+    padding: 10px;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}

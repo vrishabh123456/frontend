@@ -1,0 +1,46 @@
+.container{ 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap:1rem; 
+} 
+.box1{ 
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(50, 145, 21); 
+    border: 1px solid; 
+} 
+.box2{ 
+    width: 100px; 
+    height: 100px; 
+    background-color:rgb(62, 28, 136); 
+    border: 1px solid; 
+} 
+.box3{ 
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(27, 153, 169); 
+    border: 1px solid; 
+} 
+.box4{ 
+    width: 100px; 
+    height: 100px; 
+    background-color:rgb(133, 13, 37); 
+    border: 1px solid; 
+} 
+
+@media screen and (max-width:768px) { 
+    .container{ 
+        display:grid; 
+        grid-template-columns:auto auto; 
+        gap: 1rem 1rem; 
+    } 
+} 
+@media screen and (max-width:320px) { 
+    .container{ 
+        display:flex; 
+        flex-direction:column; 
+        align-items:center; 
+    } 
+}

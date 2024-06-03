@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.com{
+    width: 500px;
+    height: 530px;
+    border: 3px solid black;
+}
+
+.com1 img{
+   /* float:left ; */
+   border: 10px solid rgba(36, 29, 29, 0.129);
+}
+
+.com2{
+    color: rgb(202, 22, 22);
+}
+
+.com3{
+    color: rgb(116, 14, 167);   
+    /* clear: left; */
+    clear: both;
+    clear: right;
+}
+
+.com3:hover{
+    color: seagreen;
+}
+
+::selection{
+    background-color: rgb(210, 197, 16);
+    color: rgb(85, 43, 141);
+}

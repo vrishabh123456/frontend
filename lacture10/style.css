@@ -1,0 +1,75 @@
+/* .box{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    color: dark;
+    box-shadow: 10px 10px 20px 5px black; */
+    /* box-shadow: 10px 10px 20px 5px black, 10px 10px 20px 5px red inset, 10px 10px 20px 5px blue inset; */
+/* } */
+
+/* h1{ */
+    /* text-transform: lowercase;       all text convert into lowercase */
+    /*text-transform: uppercase;*/        /* all text convert into Upper case*/
+    /* text-transform: capitalize; */
+    /* text-transform: unset;
+    text-transform:inherit; */
+
+    /* text-decoration-line:overline;
+    text-decoration-line:underline;
+    text-decoration-line:line-through;
+    text-decoration-color: yellow;
+    text-shadow: 5px 5px 10px hotpink;
+    word-spacing: 25px;
+    text-align: center;
+    letter-spacing: 25px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: grid;
+    background-color: #000000;
+    gap: 10px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 100px 150px 150px 100px;
+    text-align: center;
+    border: 10px solid #000000;
+}
+
+.item1{
+    background-color: rgb(94, 94, 214);;
+    grid-column: 1/4;
+}
+
+.item2{
+    background-color: rgb(19, 112, 47);
+    grid-row: 2/4;
+}
+
+.item3{
+    background-color: rgb(6, 115, 151);
+    grid-column: 2/4;
+}
+
+.item4{
+    background-color: rgb(74, 74, 176);
+}
+
+.item5{
+    background-color: rgb(25, 25, 104);
+}
+
+.item6{
+    background-color: rgb(44, 44, 84);
+    grid-column: 1/4;
+}

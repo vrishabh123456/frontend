@@ -1,0 +1,732 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.home-main {
+  padding: 20px 40px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-img {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  color: aliceblue;
+}
+.title {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.home-img {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+}
+li {
+  color: aliceblue;
+  font-size: 0.8rem;
+}
+.nav-btn {
+  display: flex;
+  gap: 25px;
+}
+button {
+  cursor: pointer;
+}
+.btn-log {
+  color: orange;
+  background-color: rgb(254, 248, 248);
+  padding: 8px 14px;
+  font-weight: bold;
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+.btn-log {
+  background-color: orange;
+  color: white;
+}
+.btn-add {
+  background-color: orange;
+  /* padding: 8px 16px; */
+  color: white;
+  font-weight: bold;
+  border: 2px solid orange;
+  border-radius: 8px;
+  padding: 8px 14px;
+}
+.btn-add {
+  background-color: white;
+  color: orange;
+}
+nav {
+  background-image: url(/website/pic-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.348);
+  width: 100%;
+}
+.get {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(240, 243, 245);
+}
+.wee {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.buy {
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  gap: 30px;
+  padding: 20px;
+}
+.locat {
+  width: 33.33%;
+  border-right: 2px solid rgb(7, 5, 5);
+}
+.buy-1 {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 11px;
+}
+.locat span {
+  color: gray;
+}
+.ser {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  padding: 8px 20px;
+  border-radius: 7px;
+}
+.ser:hover {
+  background-color: white;
+  color: black;
+}
+.harry {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  font-size: 12px;
+}
+.harry-img {
+  height: 50px;
+  border-radius: 30px;
+}
+.harry-1 {
+  width: 30%;
+  text-align: center;
+  color: aliceblue;
+}
+.mil {
+  margin-top: 5px;
+  color: rgb(251, 245, 245);
+}
+.harry-2 {
+  width: 40%;
+  text-align: center;
+  font-size: 22px;
+  color: aliceblue;
+}
+.harry-3 {
+  width: 30%;
+  text-align: center;
+}
+.aa {
+  background-color: rgb(13, 194, 13);
+  padding: 5px;
+  color: white;
+}
+.rate {
+  color: rgb(252, 239, 239);
+}
+.unlock {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+}
+.your {
+  text-align: center;
+}
+.rent-img {
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 100px;
+}
+.main-rent {
+  display: flex;
+  width: 900px;
+  margin-top: 50px;
+  gap: 10px;
+}
+.one-rent {
+  width: 33.33%;
+  margin-left: 50px;
+  text-align: center;
+}
+.one-rent h4 {
+  color: gray;
+}
+.drem {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.drem-1 {
+  background-image: url(/website/pexels-joaquin-carfagna-3131171-18111269.jpg);
+  width: 50%;
+  background-size: cover;
+  padding: 27px;
+  border-radius: 20px;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.drem-2 {
+  width: 50%;
+  padding: 20px;
+  border: 5px solid rgba(128, 128, 128, 0.174);
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.secur {
+  font-size: 40px;
+}
+.plus {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ab {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 30px;
+}
+.seven {
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px;
+  text-align: center;
+}
+.seven h1 {
+  font-size: 40px;
+}
+.seven p {
+  color: gray;
+}
+.seven-img {
+  width: 40px;
+  border-radius: 20px;
+  height: 40px;
+}
+.main-img {
+  border-radius: 10px;
+  background-color: white;
+}
+.main-d {
+  width: 35%;
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: center;
+}
+.pro {
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+.ke {
+  font-size: 40px;
+}
+.loan {
+  margin-top: 20px;
+}
+.right {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+.more {
+  background-color: orange;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 7px;
+  font-weight: bold;
+  border: none;
+}
+.req {
+  border: none;
+  background-color: white;
+  padding: 8px 25px;
+}
+.unlock {
+  font-size: 35px;
+  text-align: center;
+}
+.ex-2 {
+  /* margin: auto; */
+  text-align: center;
+  padding: 8px;
+  font-size: 11px;
+}
+.box {
+  width: 20%;
+  border-radius: 1px;
+  padding: 1px;
+  margin-top: 10px;
+}
+.box-1 {
+  padding: 40px;
+  border-radius: 90px;
+  height: 100%;
+  width: 50%;
+}
+
+.two-one {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.one {
+  background-image: url(/website/ophoto-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  opacity: 1;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.two {
+  background-image: url(/website/photo-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  font-size: 18px;
+  opacity: 1;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.three {
+  background-image: url(/website/photo-2.avif);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  font-size: 18px;
+  opacity: 1;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.four {
+  background-image: url(/website/photo-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  font-size: 18px;
+  opacity: 1;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.one h5 {
+  text-align: center;
+  margin-top: 200px;
+}
+.two h5 {
+  text-align: center;
+  margin-top: 200px;
+}
+.three h5 {
+  text-align: center;
+  margin-top: 200px;
+}
+.four h5 {
+  text-align: center;
+  margin-top: 200px;
+}
+.one p {
+  text-align: center;
+}
+.two p {
+  text-align: center;
+}
+.three p {
+  text-align: center;
+}
+.four p {
+  text-align: center;
+}
+
+.new {
+  display: flex;
+  margin-left: 120px;
+  font-size: 40px;
+}
+.sale-1 {
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 4px;
+  font-size: 20px;
+  top: 10px;
+  color: black;
+}
+.all-1 {
+  padding: 1px;
+  color: rgb(248, 244, 244);
+  background-color: rgb(19, 18, 18);
+  position: absolute;
+  right: 120px;
+  border-radius: 5px;
+}
+.ex-3 {
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+.new-3 {
+  position: relative;
+  left: 20px;
+}
+
+.listing {
+  padding: 80px;
+  margin-top: 70px;
+  font-size: 1.5rem !important;
+  background-color: antiquewhite;
+}
+
+.all-cards {
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.rent {
+  background-color: white;
+  width: 28%;
+  padding: 10px;
+  height: 300px;
+  padding-top: 0px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.card-src {
+  margin-top: 0;
+  width: 100%;
+}
+
+.card-images {
+  width: 100%;
+  border-radius: 10px;
+}
+.blue {
+  color: chocolate;
+}
+.studium {
+  color: dimgray;
+  font-size: 10px;
+}
+.span-1 {
+  font-size: 14px !important;
+}
+
+.p-1 {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+  color: darkslategrey;
+  font-size: 13px;
+}
+.money {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.icon-text {
+  font-size: 0.7rem;
+}
+
+.tilted-arrow {
+  border-radius: 100%;
+  border: 1px solid black !important;
+  transform: rotate(-30deg);
+}
+
+.inside-text {
+  position: relative;
+  top: 25px;
+  left: 5px;
+  font-size: 10px;
+  padding: 3px;
+  background-color: orange;
+  color: white;
+  display: inline-block;
+  border-radius: 20px;
+}
+.for-1 {
+  font-size: 35px;
+  margin-top: 10px;
+}
+.img-home {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mini-1 {
+  background-image: url(/website/interior-of-home-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.407);
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.var-1 {
+  font-size: 50px;
+  color: aliceblue;
+  margin-left: 10px;
+  padding: 90px;
+  border-radius: 20px;
+}
+
+.var-2 {
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.new3 {
+  height: 40px;
+  background-color: chocolate;
+  color: aliceblue;
+  border-radius: 16px;
+  border: 0;
+  position: relative;
+  left: -460px;
+  padding: 10px;
+  top: 400px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.for {
+  font-size: 15px;
+  background-color: rgba(240, 248, 255, 0.911);
+  height: 250px;
+  width: 350px;
+  margin-top: 85px;
+  margin-left: -70px;
+  border-radius: 30px;
+}
+
+.villa-1 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.villa {
+  border-radius: 199px;
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+.like {
+  color: aliceblue;
+  margin-top: 220px;
+  margin-left: -320px;
+}
+
+.full {
+  margin-top: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.dhaka {
+  margin-top: -210px;
+  margin-left: 170px;
+  font-size: 11px;
+  color: dimgrey;
+}
+
+.rent-3 {
+  margin-top: 19px;
+  margin-left: 170px;
+  font-size: 22px;
+  color: rgb(14, 15, 16);
+}
+
+.our {
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.lorem {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.meet {
+  font-size: 20px;
+  margin-left: 800px;
+}
+.meet-team {
+  position: relative;
+  right: 100px;
+  width: 100px;
+  border: 2px solid rgba(58, 52, 42, 0.233);
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+.pushan {
+  padding: 20px;
+  margin-left: 50px;
+}
+.mark-1 {
+  margin-top: 0px;
+  margin: auto;
+  width: 800px;
+  display: flex;
+  gap: 20px;
+}
+
+.one-1 {
+  background-image: url(/men-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.two-2 {
+  background-image: url(/men-2.avif);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.three-3 {
+  background-image: url(/men-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  width: 25%;
+  height: 250px;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.four-4 {
+  background-image: url(/men-4.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-blend-mode: darken; */
+  width: 25%;
+  height: 250px;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.ceo {
+  margin-top: 260px;
+  margin-left: -800px;
+  color: gray;
+}
+
+
+.home{
+  background-image: url(./pexels-expect-1.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+.cb{
+  margin-top: -300px;
+  margin-left: 505px;
+  font-size: 10px;
+}
+
+.get-1{
+  margin-top: 11px;
+  margin-right: 260px;
+  margin-left: 500px;
+  font-size: 27px;
+}
+
+.get-2{
+  margin-top: 11px;
+  margin-right: 260px;
+  margin-left: 500px;
+  font-size: 13px;
+}
+
+.but{
+  margin-top: 40px;
+  color: rgb(17, 15, 14);
+  border: 2px solid black;
+  margin-right: 270px;
+  margin-left: 500px;
+  font-size: 13px; 
+  border-radius: 2px;
+
+}
